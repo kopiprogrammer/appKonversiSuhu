@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/konverter2"
+    tools:context=".ReamurToFarenheit" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/reamurkefarenheit"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="46dp"
+        android:textColor="#ffffff"
+        android:text="@string/masukkannilaireamur" />
+
+    <EditText
+        android:id="@+id/edNilaiReamurRTF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView2"
+        android:ems="10"
+        android:hint="@string/masukkannilaireamur"
+        android:textColor="#ffffff" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btKonvertRTF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edNilaiReamurRTF"
+        android:layout_alignRight="@+id/edNilaiReamurRTF"
+        android:layout_below="@+id/edNilaiReamurRTF"
+        android:layout_marginTop="16dp"
+        android:textColor="#ffffff"
+        android:text="@string/convert" />
+
+    <EditText
+        android:id="@+id/edNilaiFarenheitRTF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btKonvertRTF"
+        android:layout_alignRight="@+id/btKonvertRTF"
+        android:layout_below="@+id/btKonvertRTF"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:textColor="#ffffff"
+        android:hint="@string/nilaifarenheit"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btMenuUtamaRTF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edNilaiFarenheitRTF"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/edNilaiFarenheitRTF"
+        android:layout_marginBottom="30dp"
+        android:textColor="#ffffff"
+        android:text="@string/menuutama" />
+
+</RelativeLayout>

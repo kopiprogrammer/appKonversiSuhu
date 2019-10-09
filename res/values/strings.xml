@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Konverter Suhu</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="konversisuhu">KONVERSI SUHU</string>
+    <string name="celciustofarenheit">CELCIUS KE TO FARENHEIT</string>
+    <string name="celciustoreamur">CELCIUS KE REAMUR</string>
+    <string name="farenheittocelcius">FARENHEIT TO CELCIUS</string>
+    <string name="farenheittoreamur">FARENHEIT TO REAMUR</string>
+    <string name="reamurtofarenheit">REAMUR TO FARENHEIT</string>
+    <string name="reamurtocelcius">REAMUR KE CELCIUS</string>
+    <string name="keluar">KELUAR</string>
+    <string name="celciustofarenheit2">CELCIUS TO FARENHEIT</string>
+    <string name="celciustoreamur2">CELCIUS TO REAMUR</string>
+    <string name="masukkannilaicelcius">Masukkan Niali Celcius</string>
+    <string name="convert">KONVERT</string>
+    <string name="hasilconvert">HASIL CONVERT</string>
+    <string name="menuutama">MENU UTAMA</string>
+    <string name="nilaifarenheit">Nilai Farenheit</string>
+    <string name="title_activity_celcius_to_farenheit">Celcius To Farenheit</string>
+    <string name="title_activity_celcius_to_reamur">Celcius To Reamur</string>
+    <string name="masukkannilaicelcius2">Masukkan Nilai Celcius</string>
+    <string name="nilaireamur">Nilai Reamur</string>
+    <string name="title_activity_farenheit_to_celcius">Farenheit To Celcius</string>
+    <string name="title_activity_farenheit_to_reamur">Farenheit To Reamur</string>
+    <string name="title_activity_reamur_to_farenheit">Reamur To Farenheit</string>
+    <string name="title_activity_reamur_to_celcius">Reamur To Celcius</string>
+    <string name="masukkannilaifarenheit">Masukkan Nilai Farenheit</string>
+    <string name="nilaicelcius">Nilai Celcius</string>
+    <string name="title_activity_fm_farenheit_to_celcius">Farenheit To Celcius</string>
+    <string name="reamurtocelcius2">REAMUR TO CELCIUS</string>
+    <string name="masukkannilaireamur">Masukkan Nilai Reamur</string>
+    <string name="about">ABOUT</string>
+    <string name="celciuskefarenheit">CELCIUS KE FARENHEIT</string>
+    <string name="celciuskereamur">CELCIUS KE REAMUR</string>
+    <string name="farenheitkereamur">FARENHEIT KE REAMUR</string>
+    <string name="reamurkecelcius">REAMUR KE CELCIUS</string>
+    <string name="reamurkefarenheit">REAMUR KE FARENHEIT</string>
+    <string name="farenheitkecelcius">FARENHEIT KE CELCIUS</string>
+    <string name="deskripsi">Aplikasi Converter Suhu Lengkap</string>
+    <string name="konversi">KONVERSI SUHU</string>
+
+</resources>

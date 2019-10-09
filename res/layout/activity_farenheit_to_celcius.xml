@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/konverter2"
+    tools:context=".FarenheitToCelcius" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/farenheitkecelcius"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="52dp"
+        android:textColor="#ffffff"
+        android:text="@string/masukkannilaifarenheit" />
+
+    <EditText
+        android:id="@+id/edNilaiFarenheitFTC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView2"
+        android:ems="10"
+        android:hint="@string/masukkannilaifarenheit"
+        android:textColor="#ffffff" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btKonvertFTC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edNilaiFarenheitFTC"
+        android:layout_alignRight="@+id/edNilaiFarenheitFTC"
+        android:layout_below="@+id/edNilaiFarenheitFTC"
+        android:layout_marginTop="17dp"
+        android:textColor="#ffffff"
+        android:text="@string/convert" />
+
+    <EditText
+        android:id="@+id/edNilaiCelciusFTC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btKonvertFTC"
+        android:layout_alignRight="@+id/btKonvertFTC"
+        android:layout_below="@+id/btKonvertFTC"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:textColor="#ffffff"
+        android:hint="@string/nilaicelcius"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btMenuUtamaFTC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edNilaiCelciusFTC"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/edNilaiCelciusFTC"
+        android:layout_marginBottom="14dp"
+        android:textColor="#ffffff"
+        android:text="@string/menuutama" />
+
+</RelativeLayout>

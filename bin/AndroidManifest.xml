@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.appkonversi"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_konvert"
+        android:label="@string/konversi"
+        android:theme="@style/AppBaseTheme" android:description="@string/deskripsi" android:logo="@drawable/ic_launcher">
+        <activity
+            android:name="com.app.appkonversi.MenuUtama"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.app.appkonversi.CelciusToFarenheit"
+            android:label="@string/title_activity_celcius_to_farenheit" >
+        </activity>
+        <activity
+            android:name="com.app.appkonversi.CelciusToReamur"
+            android:label="@string/title_activity_celcius_to_reamur" >
+        </activity>
+        <activity
+            android:name="com.app.appkonversi.FarenheitToCelcius"
+            android:label="@string/title_activity_farenheit_to_celcius" >
+        </activity>
+        <activity
+            android:name="com.app.appkonversi.FarenheitToReamur"
+            android:label="@string/title_activity_farenheit_to_reamur" >
+        </activity>
+        <activity
+            android:name="com.app.appkonversi.ReamurToFarenheit"
+            android:label="@string/title_activity_reamur_to_farenheit" >
+        </activity>
+        <activity
+            android:name="com.app.appkonversi.ReamurToCelcius"
+            android:label="@string/title_activity_reamur_to_celcius" >
+        </activity>
+        <activity
+            android:name="com.app.appkonversi.FmFarenheitToCelcius"
+            android:label="@string/title_activity_fm_farenheit_to_celcius" >
+        </activity>
+    </application>
+
+</manifest>

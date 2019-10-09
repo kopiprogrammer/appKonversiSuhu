@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/konversisuhu"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MenuUtama" >
+
+    <Button
+        android:id="@+id/btCelciustoFarenheit"
+        style="@style/AppBaseTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/celciustofarenheit2"
+        android:textSize="@dimen/activity_horizontal_margin"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/btFarenheittoCelcius"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btCelciustoReamur"
+        android:layout_alignRight="@+id/btCelciustoReamur"
+        android:layout_below="@+id/btCelciustoReamur"
+        android:text="@string/farenheittocelcius"
+        android:textSize="@dimen/activity_horizontal_margin"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/btCelciustoReamur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btCelciustoFarenheit"
+        android:layout_alignRight="@+id/btCelciustoFarenheit"
+        android:layout_below="@+id/btCelciustoFarenheit"
+        android:text="@string/celciustoreamur2"
+        android:textSize="@dimen/activity_horizontal_margin"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/btFarenheittoReamur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btFarenheittoCelcius"
+        android:layout_alignRight="@+id/btFarenheittoCelcius"
+        android:layout_below="@+id/btFarenheittoCelcius"
+        android:text="@string/farenheittoreamur"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/btReamurtoFarenheit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btFarenheittoReamur"
+        android:layout_alignRight="@+id/btFarenheittoReamur"
+        android:layout_below="@+id/btFarenheittoReamur"
+        android:text="@string/reamurtofarenheit"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/btReamurtoCelcius"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btReamurtoFarenheit"
+        android:layout_alignRight="@+id/btReamurtoFarenheit"
+        android:layout_below="@+id/btReamurtoFarenheit"
+        android:text="@string/reamurtocelcius"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/btKeluar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btReamurtoCelcius"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/btReamurtoCelcius"
+        android:layout_marginBottom="15dp"
+        android:text="@string/keluar"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/btAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btKeluar"
+        android:layout_alignLeft="@+id/btKeluar"
+        android:layout_alignRight="@+id/btKeluar"
+        android:text="@string/about"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+</RelativeLayout>
